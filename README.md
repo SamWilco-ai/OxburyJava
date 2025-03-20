@@ -2,7 +2,7 @@
 # Oxbury Bank Java Task
    
 ## Description
-The purpose of this task was to create a REST API that would interact with a database of my choosing to perform different defined functions. For the purposes of this I've used a H2 internal DB.
+The purpose of this task was to create a REST API that would interact with a database of my choosing to perform different defined functions. For the purposes of this I've used a H2 internal DB. This database gets populated and created on startup.
 
 ## Build
 
@@ -141,4 +141,14 @@ GET
     }
 ]
 ```
+
+## Database
+H2 Database can be accessed locally as follows
+
+### Access
+> http://localhost:8080/h2-console
+
+|username| password |
+| -------- | ------------- | 
+| sa | password |
 
