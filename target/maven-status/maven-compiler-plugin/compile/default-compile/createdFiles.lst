@@ -1,0 +1,4 @@
+com\wilcock\samuel\oxbury\controller\RestfulController.class
+com\wilcock\samuel\oxbury\dao\transactionsDAO.class
+com\wilcock\samuel\oxbury\DemoApplication.class
+com\wilcock\samuel\oxbury\model\dataModel.class

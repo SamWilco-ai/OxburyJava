@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.wilcock.samuel.oxbury.RestfulControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.739 s <<< FAILURE! -- in com.wilcock.samuel.oxbury.RestfulControllerTest
+com.wilcock.samuel.oxbury.RestfulControllerTest.testGettingDataBySpecifics -- Time elapsed: 0.990 s <<< FAILURE!
+Wanted but not invoked:
+dao.getByDetails(
+    <any string>,
+    <any string>,
+    <any>,
+    <any string>,
+    <any string>
+);
+-> at com.wilcock.samuel.oxbury.dao.transactionsDAO.getByDetails(transactionsDAO.java:168)
+Actually, there were zero interactions with this mock.
+
+	at com.wilcock.samuel.oxbury.dao.transactionsDAO.getByDetails(transactionsDAO.java:168)
+	at com.wilcock.samuel.oxbury.RestfulControllerTest.testGettingDataBySpecifics(OxburyApplicationTests.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.wilcock.samuel.oxbury.RestfulControllerTest.testGettingData -- Time elapsed: 0.013 s <<< FAILURE!
+Wanted but not invoked:
+dao.getAllTransactions();
+-> at com.wilcock.samuel.oxbury.dao.transactionsDAO.getAllTransactions(transactionsDAO.java:108)
+Actually, there were zero interactions with this mock.
+
+	at com.wilcock.samuel.oxbury.dao.transactionsDAO.getAllTransactions(transactionsDAO.java:108)
+	at com.wilcock.samuel.oxbury.RestfulControllerTest.testGettingData(OxburyApplicationTests.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
